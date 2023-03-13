@@ -1,0 +1,12 @@
+.LeftBody
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.LeftBody button{
+    background-color: darkturquoise;
+    padding: 5px 20px 5px 20px;
+    border: none;
+}

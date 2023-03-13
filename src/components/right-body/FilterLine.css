@@ -1,0 +1,74 @@
+.FilterLine
+{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+    align-items: end;
+    height: 4rem;
+}
+.sorting-by-date
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+.dropdown-element
+{
+    display: flex;
+    width: 160px;
+height: 38px;
+border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+    
+}
+.dropdown-logo
+{
+    height: 38px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+}
+
+.dropdown-toggle::after
+{
+    color: #00BBD8;
+}
+
+.filters{
+    display: flex;
+    gap: 5px;
+}
+.filterClass
+{
+    width: 89px;
+height: 36px;
+
+border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 18px;
+background: #eaf0f6
+}
+.filter-dropdown
+{
+    margin-left: 10px;
+}
+.filter-dropdown .dropdown-logo
+{
+    border: none;
+}
+
+.filter-dropdown .dropdown-element
+{
+    width: 100px;
+}

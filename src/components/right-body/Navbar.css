@@ -1,0 +1,112 @@
+.Navbar
+{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    height: 5rem !important;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgb(128, 126, 126);
+    border:1px solid #dfe3eb;
+}
+.Navbar div
+{
+    display: flex;
+    align-items: center;
+}
+.appName{
+    flex-grow: 1;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.RxCrossCircled
+{
+    color: aliceblue;
+    background-color: darkgray;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.Sub-Navbar
+{
+    box-sizing: border-box;
+    width: 100%;
+    /* max-width: 1440px; */
+    height: 6rem !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #dfe3eb;
+    padding: 0px 20px 0px 20px;
+
+}
+.searchBox button{
+    border-radius: 22px 0 0 22px;
+    background-color: #EFF3F6;
+    border: none;
+}
+.searchBox input{
+    border-radius: 0 22px 22px 0;
+    background-color: #EFF3F6;
+    border: none;
+}
+.dropdown-element
+{
+    display: flex;
+    width: 160px;
+height: 38px;
+border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+    
+}
+.dropdown-logo
+{
+    height: 38px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+}
+
+.dropdown-toggle::after
+{
+    color: #00BBD8;
+}
+
+.align-type
+{
+    display: flex;
+}
+.align-type div{
+    width: 48px;
+    height: 38px;
+    
+background: #eaf0f6;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.grid-type
+{
+    border:1px solid #99acc2;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+.list-type
+{
+    border:1px solid #99acc2;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.hide-class
+{
+    display: none;
+}

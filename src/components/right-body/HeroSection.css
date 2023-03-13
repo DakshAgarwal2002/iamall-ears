@@ -1,0 +1,214 @@
+.GridList
+{
+    /* visibility: hidden; */
+    /* margin: 0px 20px 0px 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* overflow-x: hidden; */
+    margin: 20px;
+    justify-content: space-between;
+    /* gap:32px; */
+    /* justify-content: center; */
+    /* display: none; */
+    /* justify-content: center; */
+    
+}
+
+.GridList > div{
+    max-width: 261px;
+    width: 33.33%;
+height: 233px;
+margin-top: 20px;
+border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 11px;
+}
+.user-image img{
+    width: 100%;
+height: 171.2px;
+border-radius: 10px 10px 0px 0px;
+}
+
+.card-info{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-info h6{
+    margin-top: 6px;
+    font-family: "segoe ui";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+color: #497696;
+}
+.card-info p{
+height: 8px;
+font-family: "segoe ui";
+font-size: 13px;
+font-weight: 400;
+line-height: 13px;
+font-style: normal;
+text-align: left;
+color: #497696;
+}
+
+.card-format
+{
+    height: 100%;
+    display: flex;
+    gap:10px;
+    align-items: end;
+    justify-content: center;
+}
+
+.format{
+    width: 42px;
+height: 17.4px;
+opacity: 0.90;
+display: flex;
+align-items: start;
+border-radius: 15px;
+background: #99acc2;
+overflow: visible;
+border: none;
+}
+
+.format span{
+    margin-top: -6px;
+    margin-left: 3px;
+    color: #ffffff;
+}
+
+.ListList
+{
+    padding: 0 20px 0 20px;
+}
+/* .List-Heading{
+    box-sizing: border-box;
+    padding: 32px;
+    height: 40px;
+    display: flex;
+    gap:350px;
+    border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+margin-top: 32px;
+align-items: center;
+background: #ffffff
+} */
+
+ .List-Heading1
+{
+    width: 25px;
+height: 25px;
+
+border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+border-radius: 5px;
+
+
+background: #ffffff
+}
+/*
+.List-Heading-second
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+} */
+.ListList p
+{
+    margin: 0;
+    font-family: "segoe ui";
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+    /* align-items: center; */
+}
+.listItem
+{
+    box-sizing: border-box;
+    padding: 32px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    border-color: #dfe3eb;
+border-width: 1px;
+border-style: solid;
+margin-top: 32px;
+align-items: center;
+background: #ffffff;
+margin-top: 0;
+}
+.list-image img
+{
+    width: 96px;
+    height: 64px;
+}
+.Item1
+{
+    display: flex;
+    align-items: center;
+}
+.list-download-image
+{
+    padding: 1rem;
+}
+.List-Heading
+{
+    box-sizing: border-box;
+    height: 40px;
+margin-top: 32px;
+align-items: center;
+background: #ffffff
+}
+.List-Heading .list-download-image img
+{
+    z-index: -1;
+    position: relative;
+}
+.List-Heading .list-image
+{
+    z-index: -1;
+    position: relative;
+}
+.listItem-active
+{
+    box-sizing: border-box;
+    padding: 32px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    border-color: #00bbd8;
+border-width: 1px;
+border-style: solid;
+margin-top: 32px;
+align-items: center;
+background: #ffffff;
+margin-top: 0;
+}
+.active-check{
+    background-color: #00bbd8;
+}
+.file-name{
+    color: #00bbd8;
+}
+.active-card{
+    background-color: #00bbd8;
+}
+.active-card .card-format button{
+    background:#ffffff;
+}
+.active-card .card-format button span{
+    color:#99acc2;
+}
